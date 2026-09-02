@@ -34,7 +34,18 @@ SELECT * FROM students;
 
 ---
 
-## Part 3: MongoDB Document Database
+## Part 3: Database Paradigm Comparison Matrix
+Below is the structural comparison of the three database management engines explored in this workbench setup:
+
+| Database Family | Example Engine | Structural Blueprint | Ideal Use Case Scenario |
+| :--- | :--- | :--- | :--- |
+| **Relational (RDBMS)** | PostgreSQL | Strict tables with rigid columns and defined data types. | Financial records, user accounts, structured data. |
+| **Key-Value Store** | Redis | No tables. Stores plain key and value pairs. | Real-time caching, session tokens, fast counters. |
+| **Document Store** | MongoDB | No predefined columns. Stores flexible, nested JSON-like records. | Content management, product catalogs, shifting data. |
+
+---
+
+## Part 4: MongoDB Document Database
 ### Commands Executed via Mongo Playground:
 ```javascript
 use bootcamp;
